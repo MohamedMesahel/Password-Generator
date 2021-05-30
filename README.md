@@ -7,4 +7,4 @@ To modify starter code to create an application that enables employees to genera
 ### Link
 [Passowrd-Generator](https://mohamedmesahel.github.io/Password-Generator/)
 
-![](../Password-Generator/assets/images/PasswordGenerator.png)
+![](Password-Generator/assets/images/PasswordGenerator.png)
