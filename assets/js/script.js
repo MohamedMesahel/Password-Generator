@@ -41,6 +41,8 @@ function questions() {
       askUpperCase: askUpperCase,
       askSpecial: askSpecial
     } 
+    // Asked the user how long the password will be and sore their ansers in a variable `length`
+    // Validate the users answer to verify that it was between 8 and 128
     if((length < 8)||(length > 128))
     alert("Choose number between 8 and 128");
     else if((!askNumbers)&&(!askLowerCase)&&(!askUpperCase)&&(!askSpecial))
@@ -76,7 +78,7 @@ function generatePassword() {
     combination.push(i);
   }
 
-// Establishing passowrdMath
+// Establishing forloop to generate random choices
   for (var i = 0; i < passwordOptions.length; i++) {
     finalPassword += combination[Math.floor(Math.random() * combination.length)];
     
