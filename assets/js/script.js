@@ -43,8 +43,10 @@ function questions() {
     } 
     // Asked the user how long the password will be and sore their ansers in a variable `length`
     // Validate the users answer to verify that it was between 8 and 128
-    if((length < 8)||(length > 128))
+    if((length < 8)||(length > 128)) 
     alert("Choose number between 8 and 128");
+    // length.repeat("Choose number between 8 and 128");
+    
     else if((!askNumbers)&&(!askLowerCase)&&(!askUpperCase)&&(!askSpecial))
     alert("Must choose at least one type.");
     else
